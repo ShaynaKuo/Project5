@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d0d0d; /* Dark background */
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(90deg, #ff4e50, #1f1c2c);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(255, 78, 80, 0.5);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffbaba;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+/* Video Sections */
+section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(255, 78, 80, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(255, 78, 80, 0.6);
+}
+
+/* Section Headings */
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ff4e50;
+    text-shadow: 0 0 10px rgba(255, 78, 80, 0.8);
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #e0e0e0;
+}
+
+/* Video Styling */
+iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 3px solid #ff4e50;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(90deg, #1f1c2c, #ff4e50);
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffbaba;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
